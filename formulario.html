@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="apple-touch-icon" href="icon.png" />
+        <!-- Place favicon.ico in the root directory -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:wght@300;400&family=Roboto:wght@400;900;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <meta name="theme-color" content="#fafafa" />
+    </head>
+
+    <body>
+        <header class="barra-principal">
+            <div class="contenedor">
+                <i id="menu_i" class="fas fa-bars"></i>
+                <div class="cabeza" id="cabeza">
+                    <a href="index.html"> <img src="/" alt="Imagen Logo" /></a>
+                    <nav>
+                        <a class="hvr-box-shadow-inset" href="nosotros.html">Nosotros</a>
+                        <a class="hvr-box-shadow-inset" href="proyectos.html">Proyectos</a>
+                        <a class="hvr-box-shadow-inset" href="precios.html">Precios</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <form class="contenedor">
+            <legend class="centrar-texto">
+                Formulario. Colocar tus datos aqui, para ser contactado.
+            </legend>
+            <fieldset class="formulario">
+                <label for="email">Correo Electrónico</label>
+                <input class="campo" type="mail" id="email" placeholder="Email" />
+                <label for="telefono">Número de Teléfono</label>
+                <input class="campo" type="tel" id="telefono" placeholder="Nº de Teléfono" />
+                <label for="seleccion">¿Por qué se quiere comunicar?</label>
+                <select class="campo" id="seleccion">
+                    <option value="" disabled selected>Elija la opción</option>
+                    <option value="">Dudas sobre la creacion de pag.</option>
+                    <option value="">Comó deberia estilizar mi pag.</option>
+                    <option value="">Dudas sobre la empresa</option>
+                    <option value="">Quiero empezar la pag.</option>
+                </select>
+                <label for="textarea">Puedes escribir un mensaje aclarando tu cuestión</label>
+                <textarea id="textarea"></textarea>
+                <a href="formulario.html" class="boton">Enviar Formulario</a>
+            </fieldset>
+        </form>
+
+        <footer>
+            <div class="footer-grid contenedor">
+                <div class="footer-contenido">
+                    <h4>Acerca de nosotros</h4>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contáctanos</a>
+                    <a href="creacion.html">Método de creación de la pagina web</a>
+                </div>
+                <!--footer-contenido-->
+                <div class="footer-contenido">
+                    <h4>Precios</h4>
+                    <a href="precios.html">Precios de las páginas web</a>
+                    <a href="actualizaciones.html">Actualizaciones de la pagina</a>
+                </div>
+                <!--footer-contenido-->
+                <div class="footer-contenido">
+                    <h4>Recursos</h4>
+                    <a href="programadores.html">Programadores web</a>
+                    <a href="contacto-tecnico.html">Asistencia tecnica</a>
+                    <a href="seguridad.html">Seguridad de la Pag. Web</a>
+                </div>
+                <!--footer-contenido-->
+            </div>
+            <!--footer-contenido-->
+            <div class="footer-logo-redes contenedor">
+                <img src="/" alt="Imagen Logo" />
+                <p>Español - Argentina <i class="fas fa-sort-up"></i></p>
+                <div class="redes">
+                    <a target="_blank" href="https://www.facebook.com/"
+                        ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a target="_blank" href="https://www.twitter.com"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a target="_blank" href="https://www.instagram.com"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                </div>
+            </div>
+            <div class="copyright contenedor">
+                <p>
+                    Copyright © 1999 - 2020 NebulaTech Operating Company, LLC. Todos los derechos
+                    reservados.
+                </p>
+            </div>
+        </footer>
+
+        <script src="js/vendor/modernizr-3.8.0.min.js "></script>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js "
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin=" anonymous "
+        ></script>
+        <script>
+            window.jQuery ||
+                document.write('<script src="js/vendor/jquery-3.4.1.min.js "><\/script>');
+        </script>
+        <script src="js/plugins.js "></script>
+        <script src="js/main.js "></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga = function () {
+                ga.q.push(arguments);
+            };
+            ga.q = [];
+            ga.l = +new Date();
+            ga("create", "UA-XXXXX-Y", "auto");
+            ga("set", "transport", "beacon");
+            ga("send", "pageview");
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js " async></script>
+    </body>
+</html>
