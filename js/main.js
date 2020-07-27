@@ -10,7 +10,7 @@ $(document).ready(function () {
         });
 
         // Menu-Fijo
-        var windowsAltura = $(window).height() - 900px;
+        var windowsAltura = $(window).height() - 900;
         var barraAltura = $(".barra-principal").innerHeight();
 
         $(window).scroll(function () {
