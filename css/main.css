@@ -3412,3 +3412,70 @@ html.no-csstransitions .hero-content {
         bottom: 4rem;
     }
 }
+
+/*
+
+Custom
+
+*/
+
+.image-portfolio {
+    width: 100%;
+}
+
+.image-portfolio-div {
+    margin: 0 10px 10px 0;
+}
+
+.images-all-div {
+    justify-content: center;
+}
+
+/*
+
+Form
+
+*/
+
+#mc_embed_signup {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 7.5%;
+    top: 25%;
+    right: 7.5%;
+    bottom: 25%;
+    padding: 0.5em 1.5em;
+    opacity: 1;
+    border-radius: 15px;
+    width: 75%;
+    height: 55%;
+}
+
+@media (min-width: 768px) {
+    #mc_embed_signup {
+        width: 50%;
+        height: 50%;
+        left: 25%;
+        right: 25%;
+    }
+}
+input[type="email"] {
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+input[type="text"] {
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+.mce_inline_error {
+    margin: 0 !important;
+}
+
+.body-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
