@@ -281,7 +281,6 @@
      * ------------------------------------------------------ */
 
     $(".body-container").on("click", ocultarForm);
-    $(".form-boton-integrado").on("click", ocultarForm);
 
     function ocultarForm() {
         $("#mc_embed_signup").hide("1000");

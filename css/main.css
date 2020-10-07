@@ -3480,6 +3480,24 @@ input[type="text"] {
     -ms-user-select: none;
 }
 
+.mc-field-group {
+    padding-bottom: 0 !important;
+}
+#mce-responses,
+#mce-error-response {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#mce-success-response,
+#mce-error-response {
+    padding: 0 0 1em 0 !important;
+    margin: 0 !important;
+}
+
+#mc-embedded-subscribe {
+    margin-top: 1em !important;
+}
 /*
 
 Idioma
