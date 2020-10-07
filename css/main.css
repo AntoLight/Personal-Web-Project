@@ -3479,3 +3479,24 @@ input[type="text"] {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
+/*
+
+Idioma
+
+*/
+
+.idioma {
+    background-color: white;
+    line-height: 1;
+    padding: 1em 0.5em !important;
+    border-radius: 10px;
+}
+
+.idioma a {
+    color: #f9861a !important;
+}
+
+.idioma a:hover {
+    color: #f9861a !important;
+}
